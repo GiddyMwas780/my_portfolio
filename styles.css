@@ -1239,3 +1239,11 @@ border-bottom: 1px solid var(--bg-black-50);
     right: 15px;
   }
 }
+@media (max-width: 991px) {
+  .about .about-content .education,
+  .about .about-content .experience {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 15px;
+  }
+}
